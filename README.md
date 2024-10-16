@@ -1,6 +1,6 @@
 # Leveraging Adaptive and Continuous Learning to Enhance Data Preparation Pipelines
 
-Organizations increasingly rely on data analysis to inform strategic decisions, with the effectiveness of these decisions heavily contingent on the quality of the underlying data. This project addresses the complexities of data preparation, focusing on enhancing data quality through efficient and accurate data preprocessing techniques. The core challenge tackled is the imputation of missing values by introducing a contextual multi-armed bandit recommendation system. This system leverages an internal knowledge base to recommend the most suitable imputation techniques, balancing automation and explainability.
+This work implements a recommender system based on continuous learning that exploits past users’ actions and empirical knowledge. The system provides context-aware and adaptive recommendations tailored to the user’s capabilities and needs regarding the optimal preparation tasks for the user’s analysis scenario. Employing the empirical results of previously collected experiments, we proved that our approach provides reliable recommendations and outperforms existing recommender system strategies. Note that, for this work, we focused on a single data preparation technique: data imputation.
 
 ## 📂 Project Structure
 
